@@ -16,81 +16,81 @@ This is a real-life data collected by the management of "Our Cafe"" (Not the act
 
 ### Variable Definition
 
-    Cust_ID A unique customer identifier
+Cust_ID A unique customer identifier
 
-    Store_ID A unique store identifier
+Store_ID A unique store identifier
 
-    Transaction A unique transaction identifier
+Transaction A unique transaction identifier
 
-    Day The day of the month on which the transaction took place
+Day The day of the month on which the transaction took place
 
-    Month The month in which the transaction took place
+Month The month in which the transaction took place
 
-    Food A dummy variable that equals 1 if the transaction involved a food purchase
+Food A dummy variable that equals 1 if the transaction involved a food purchase
 
-    Drink A dummy variable that equals 1 if the transaction involved a drink purchase
+Drink A dummy variable that equals 1 if the transaction involved a drink purchase
 
-    Drink_Type The specific type of drink purchased (e.g.: Latte, Cappuccino, Drip Coffee, etc... )The variable is missing for transactions that did not involve a drink purchase.
+Drink_Type The specific type of drink purchased (e.g.: Latte, Cappuccino, Drip Coffee, etc... )The variable is missing for transactions that did not involve a drink purchase.
 
-    Drink_Size The size of drink purchased (small, medium, large). The variable is missing for transactions that did not involve a drink purchase.
+Drink_Size The size of drink purchased (small, medium, large). The variable is missing for transactions that did not involve a drink purchase.
 
-    Drink_Milk The type of milk in the drink if applicable (skim, 2%). The variable is missing for drink types that cannot customize the milk when ordered and for transactions that did not involve a drink purchase.
+Drink_Milk The type of milk in the drink if applicable (skim, 2%). The variable is missing for drink types that cannot customize the milk when ordered and for transactions that did not involve a drink purchase.
 
-    Drink_Price The price paid for the drink. The variable is missing for transactions that did not involve a drink purchase.
+Drink_Price The price paid for the drink. The variable is missing for transactions that did not involve a drink purchase.
 
-    Drink_Calories The number of calories in the drink. The variable is missing for transactions that did not involve a drink purchase.
+Drink_Calories The number of calories in the drink. The variable is missing for transactions that did not involve a drink purchase.
 
-    Food_Type The specific type of food item purchased (e.g.: . The variable is missing for transactions that did not involve a food purchase.
+Food_Type The specific type of food item purchased (e.g.: . The variable is missing for transactions that did not involve a food purchase.
 
-    Food_Price The price paid for the food item. The variable is missing for transactions that did not involve a food purchase.
+Food_Price The price paid for the food item. The variable is missing for transactions that did not involve a food purchase.
 
-    Food_Calories The number of calories in the food item. The variable is missing for transactions that did not involve a food purchase.
+Food_Calories The number of calories in the food item. The variable is missing for transactions that did not involve a food purchase.
 
-    Total_Spend The total amount paid for the items purchased
+Total_Spend The total amount paid for the items purchased
 
-    Cust_Gender The customer’s gender: 0 indicates female; 1 indicates male
+Cust_Gender The customer’s gender: 0 indicates female; 1 indicates male
 
-    Cust_Age The customer’s age in years
+Cust_Age The customer’s age in years
 
-    Cust_Income The customer’s annual income
+Cust_Income The customer’s annual income
 
-    Ans_q1_Taste The customer’s stated answer to the following question: On a scale of 1 to 5, how important is taste when you choose what items to purchase? 1’ indicates “not important” and 5’ indicates “very important”.
+Ans_q1_Taste The customer’s stated answer to the following question: On a scale of 1 to 5, how important is taste when you choose what items to purchase? 1’ indicates “not important” and 5’ indicates “very important”.
 
-    Ans_q2_Price The customer’s stated answer to the following question: On a scale of 1 to 5, how important is price when you choose what items to purchase? 1’ indicates “not important” and 5’ indicates “very important”.
+Ans_q2_Price The customer’s stated answer to the following question: On a scale of 1 to 5, how important is price when you choose what items to purchase? 1’ indicates “not important” and 5’ indicates “very important”.
 
-    Ans_q3_Calories The customer’s stated answer to the following question: On a scale of 1 to 5, how important is caloric content when you choose what items to purchase? 1’ indicates “not important” and 5’ indicates “very important”.
+Ans_q3_Calories The customer’s stated answer to the following question: On a scale of 1 to 5, how important is caloric content when you choose what items to purchase? 1’ indicates “not important” and 5’ indicates “very important”.
 
-    Comp_med A dummy variable that equals 1 if the store is within 0.5 km of a medium competitor
+Comp_med A dummy variable that equals 1 if the store is within 0.5 km of a medium competitor
 
-    Comp_big A dummy variable that equals 1 if the store is within 0.5 km of a big competitor store
+Comp_big A dummy variable that equals 1 if the store is within 0.5 km of a big competitor store
 
-    Comp_Indep A dummy variable that equals 1 if the store is within 0.5 km of an independent coffeehouse (single store owner)
+Comp_Indep A dummy variable that equals 1 if the store is within 0.5 km of an independent coffeehouse (single store owner)
 
 ### Questions We Hope To Answer
 
 There are many pertinent business questions we want to address and hope that we will be able to answer them. Currently we have addressed <b>the following question:</b>
 
-    * Helping the "Our Cafe" management to understand Drink or Food preferences
+* Helping the "Our Cafe" management to understand Drink or Food preferences
 
-    and Some other questions we will be trying to answer are:
+and Some other questions we will be trying to answer are:
 
-    * What are the most popular items in their menu (Helps inventory management)?
+* What are the most popular items in their menu (Helps inventory management)?
 
-    * Whether the demand of these items remain steady for whole year?
+* Whether the demand of these items remain steady for whole year?
 
-    * What are the demographics of their customers (Age, Gender, Income etc)?
+* What are the demographics of their customers (Age, Gender, Income etc)?
 
-    * Can we identify whether their customers are price or taste or calorie conscious?
+* Can we identify whether their customers are price or taste or calorie conscious?
 
-    * What is the distribution of transactions and revenues across customers of different income levels?
+* What is the distribution of transactions and revenues across customers of different income levels?
 
-    * What is the relationship of customers' answers to the survey questions and the actual purchases they made?
+* What is the relationship of customers' answers to the survey questions and the actual purchases they made?
 
-    * Can we identify the core customer of this coffee chain (Age/Gender/Income/Preference etc) so that the management can correctly target the right people in their upcoming media campaign?
+* Can we identify the core customer of this coffee chain (Age/Gender/Income/Preference etc) so that the management can correctly target the right people in their upcoming media campaign?
 
-    * Can we help the management in selection of retail locations of their upcoming shops (high end streets/educational hubs/low end streets)?
+* Can we help the management in selection of retail locations of their upcoming shops (high end streets/educational hubs/low end streets)?
 
-    * Can we identify the core competitor (Medium sized chain/ Big chain/ Independent coffee shops)
+* Can we identify the core competitor (Medium sized chain/ Big chain/ Independent coffee shops)
 
 ### Communication Protocol in the Team
 
