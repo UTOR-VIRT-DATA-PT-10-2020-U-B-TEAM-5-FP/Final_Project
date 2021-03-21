@@ -21,70 +21,70 @@ and an independent coffee shop. The precise variable definitions are below:
 
 **Variable** 	    **Definition**
 
-Cust_ID 	        A unique customer identifier
+Cust_ID: 	        A unique customer identifier
 
-Store_ID 	        A unique store identifier
+Store_ID: 	        A unique store identifier
 
-Transaction 	    A unique transaction identifier
+Transaction: 	    A unique transaction identifier
 
-Day 		        The day of the month on which the transaction took place
+Day: 		        The day of the month on which the transaction took place
 
-Month               The month in which the transaction took place
+Month:               The month in which the transaction took place
 
-Food 		        A dummy variable that equals 1 if the transaction involved a food purchase
+Food: 		        A dummy variable that equals 1 if the transaction involved a food purchase
 
-Drink 		        A dummy variable that equals 1 if the transaction involved a drink purchase
+Drink: 		        A dummy variable that equals 1 if the transaction involved a drink purchase
 
-Drink_Type 	        The specific type of drink purchased (e.g.: Latte, Cappuccino, Drip Coffee, etc...                    )The variable is missing for transactions that did not involve a drink purchase.
+Drink_Type: 	        The specific type of drink purchased (e.g.: Latte, Cappuccino, Drip Coffee, etc...                    )The variable is missing for transactions that did not involve a drink purchase.
 
-Drink_Size 	        The size of drink purchased (small, medium, large). The variable is missing for
+Drink_Size: 	        The size of drink purchased (small, medium, large). The variable is missing for
 		            transactions that did not involve a drink purchase.
 
-Drink_Milk 	        The type of milk in the drink if applicable (skim, 2%). The variable is missing for
+Drink_Milk: 	        The type of milk in the drink if applicable (skim, 2%). The variable is missing for
                     drink types	that cannot customize the milk when ordered and for transactions
 		            that did not involve a drink purchase.
 
-Drink_Price 	    The price paid for the drink. The variable is missing for transactions that did not
+Drink_Price: 	    The price paid for the drink. The variable is missing for transactions that did not
 		            involve a drink purchase.
 
-Drink_Calories      The number of calories in the drink. The variable is missing for transactions that
+Drink_Calories:      The number of calories in the drink. The variable is missing for transactions that
 		            did not involve a drink purchase.
 
-Food_Type 	        The specific type of food item purchased (e.g.: . The variable is missing for
+Food_Type: 	        The specific type of food item purchased (e.g.: . The variable is missing for
 		            transactions that did not involve a food purchase.
 
-Food_Price 	        The price paid for the food item. The variable is missing for transactions that did
+Food_Price: 	        The price paid for the food item. The variable is missing for transactions that did
 		            not involve a food purchase.
 
-Food_Calories 	    The number of calories in the food item. The variable is missing for transactions
+Food_Calories: 	    The number of calories in the food item. The variable is missing for transactions
 		            that did not involve a food purchase.
 
-Total_Spend 	    The total amount paid for the items purchased
+Total_Spend: 	    The total amount paid for the items purchased
 
-Cust_Gender 	    The customer’s gender: 0 indicates female; 1 indicates male
+Cust_Gender: 	    The customer’s gender: 0 indicates female; 1 indicates male
 
-Cust_Age 	        The customer’s age in years
+Cust_Age: 	        The customer’s age in years
 
-Cust_Income 	    The customer’s annual income
+Cust_Income: 	    The customer’s annual income
 
-Ans_q1_Taste 	    The customer’s stated answer to the following question: On a scale of 1 to 5,
+Ans_q1_Taste: 	    The customer’s stated answer to the following question: On a scale of 1 to 5,
 		            how important is taste when you choose what items to purchase? `1’ indicates
 		            “not important” and `5’ indicates “very important”.
 
-Ans_q2_Price 	    The customer’s stated answer to the following question: On a scale of 1 to 5,
+Ans_q2_Price: 	    The customer’s stated answer to the following question: On a scale of 1 to 5,
 		            how important is price when you choose what items to purchase? `1’ indicates
 		            “not important” and `5’ indicates “very important”.
 
-Ans_q3_Calories     The customer’s stated answer to the following question: On a scale of 1 to 5,
+Ans_q3_Calories:     The customer’s stated answer to the following question: On a scale of 1 to 5,
 		            how important is caloric content when you choose what items to purchase? `1’
 		            indicates “not important” and `5’ indicates “very important”.
 
-Comp_med 	        A dummy variable that equals 1 if the store is within 0.5 km of a medium competitor
+Comp_med: 	        A dummy variable that equals 1 if the store is within 0.5 km of a medium competitor
 
-Comp_big	        A dummy variable that equals 1 if the store is within 0.5 km of a big competitor
+Comp_big:	        A dummy variable that equals 1 if the store is within 0.5 km of a big competitor
 		            store
 
-Comp_Indep 	        A dummy variable that equals 1 if the store is within 0.5 km of an independent
+Comp_Indep: 	        A dummy variable that equals 1 if the store is within 0.5 km of an independent
 		            coffeehouse (single store owner)
 
 ## **Questions We Hope To Answer**
