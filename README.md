@@ -68,13 +68,15 @@ Comp_Indep A dummy variable that equals 1 if the store is within 0.5 km of an in
 
 ### Questions We Hope To Answer
 
-There are many pertinent business questions we want to address and hope that we will be able to answer them. Currently we have addressed <b>the following question:</b>
+There are many pertinent business questions we want to address and hope that we will be able to answer them. Currently we have addressed <b>the following questions:</b>
 
-* Helping the "Our Cafe" management to understand Drink or Food preferences
+* Helping "Our Cafe" management to predict whether a customer would be regular or not; &
 
-and Some other questions we will be trying to answer are:
+* Understand customers' Drink or Food preferences
 
-* What are the most popular items in their menu (Helps inventory management)?
+Some other questions that can be answered later are:
+
+* What are the most popular items in their menu (inventory management)?
 
 * Whether the demand of these items remain steady for whole year?
 
@@ -86,11 +88,9 @@ and Some other questions we will be trying to answer are:
 
 * What is the relationship of customers' answers to the survey questions and the actual purchases they made?
 
-* Can we identify the core customer of this coffee chain (Age/Gender/Income/Preference etc) so that the management can correctly target the right people in their upcoming media campaign?
+### ERD
 
-* Can we help the management in selection of retail locations of their upcoming shops (high end streets/educational hubs/low end streets)?
-
-* Can we identify the core competitor (Medium sized chain/ Big chain/ Independent coffee shops)
+<img src='./resources/ERD.png'></img>
 
 ### Communication Protocol in the Team
 
