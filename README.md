@@ -59,13 +59,13 @@ In this phase, we are working on following:
 
 Here are few images of Data exploration at this stage:
 ### **Customer Responses**
-<img src='Resources/cust_preference.PNG'></img>
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/cust_preference.png)
 
 ### **Popular Food/Drink Across All Shops**
-<img src='Resources/food_items.PNG'></img>
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/food_items.png')
 
 ### **Repeat Customer Orders**
-<img src='Resources/repeat_cust_orders.PNG'></img>
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/repeat_cust_orders.png)
 
 ## **Database Formation**
 The project data has been stored in "SQLAlchemy" and being queried using PGAdmin and Flask.
@@ -141,7 +141,7 @@ we selected regular customer as target
 - To perform our machine learning predictions we used SVM,  EasyEnsemble, Neural Networks and Random Forest Classifier (RFC). Out of all these algorithms, RFC was able to give the predictions with most accuracy .
 
 - Also, this model gave us respectable scores for classification .
-	<img src='Resources/repeat_cust.PNG'></img>
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/repeat_cust.png)
 
 - At the end we saved the model and the standard scaler to use it in the flask app for our dashboard. 
 
@@ -201,7 +201,7 @@ we selected regular customer as target
 	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/rfc_food.png)
 
 	- Also, this model gave us respectable scores for classification .
-	<img src='Resources/food_cluster.PNG'></img>
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/food_cluster.png)
 
 	- At the end we saved the model and the standard scaler to use it in the flask app for our dashboard. 
 
@@ -262,7 +262,7 @@ we selected regular customer as target
 	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/rfc_drinks.png)
 
 	- Also, this model gave us respectable scores for classification .
-	<img src='Resources/drink_cluster.PNG'></img>
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/drink_cluster.png)
 
 	- At the end we saved the model and the standard scaler to use it in the flask app for our dashboard. 
 
@@ -282,7 +282,7 @@ Below is a glimpse of our Tableau Storyboard.
 We are developing an interactive Web Application to help Management of the Cafe chain to identify a repeat customer. 
 
 A glimpse of this app is as below:
-<img src='Resources/machine_learning_model_dashboard.PNG'></img>
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/machine_learning_model_dashboard.png)
 
 
 
