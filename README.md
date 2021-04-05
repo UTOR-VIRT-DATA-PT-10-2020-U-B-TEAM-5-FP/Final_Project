@@ -29,7 +29,7 @@ This is a real-life data collected by the management of "Our Cafe"" (Not the act
 
 Finally, there are features that indicate whether "Our Cafe" location at which the transaction took place, competes directly with a *medium size retail chain*, a *big retail chain* and an independent coffee shop. The precise variable definitions are below:
 
-![](Resources\cafe_data_features.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/cafe_data_features.png)
 
 ### **Questions to Answer**
 
@@ -59,34 +59,34 @@ In this phase, we are working on following:
 
 Here are few images of Data exploration at this stage:
 ### **Customer Responses**
-![](Resources\cust_preference.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/cust_preference.png)
 
 ### **Popular Food/Drink Across All Shops**
-![](Resources\food_items.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/food_items.png)
 
 ### **Repeat Customer Orders**
-![](Resources\repeat_cust_orders.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/repeat_cust_orders.png)
 
 ## **Database Formation**
 The project data has been stored in "postgreSQL" and being queried using SQLAlchemy and Flask.
 
 We have initial dataset named: cafe_data.csv, which stores static data, as below:
-![](Resources\cafe_data_csv.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/cafe_data_csv.png)
 
 Dataset has been connected with **pgAdmin** in a Database named **cafe_db** with the help of following connection code in the Python scripts, for the interface:
-![](Resources\database_connection.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/database_connection.png)
 
 After having created tables customer_info, order_info and competitors from our original dataset cafe_data.csv and a complete table named cafe_original_data, in our database cafe_db,  to organize the data, we establish relationship between all the tables using the following snippet:
 
-![](Resources\relationship_between_tables.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/relationship_between_tables.png)
 
 Entity Relationship Diagram from the established relationship is as presented below:
 
-![](Resources\ERD.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/ERD.png)
 
 Below is the code snippet to present the usage of SQL joins:
 
-![](Resources\joins.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/joins.png)
 
 ## **Data Analysis phase**
 In the analysis of the data, we have performed the following:
@@ -113,11 +113,11 @@ We are analyzing the dataset with different machine learning models to predict t
 
 - We have a customer_info table with features which includes information about demographics of customers such as gender, age, cust_income. In addition, we have answers from the customers for three survey questions. These questions are about customer preferences towards taste, calories and price.We have order information of customers with calories and price.
 
-	![](Resources\database_and_tables_in_postgresql.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/database_and_tables_in_postgresql.png)
 
 - We joined customer_info and order_info tables after establishing connection with database cafe_db using SQL join for postgreSQL.
 
-	![](Resources\preprocessing_repeat_cust.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/preprocessing_repeat_cust.png)
 #### **Description of preliminary feature engineering and preliminary feature selection, including their decision-making process:**
 - From the joint table we have picked every column in cust_info table and total_spend features from orders_info table to define regular customer dataframe named reg_cust_df. By using these features, we have determined the number of visits by every customer based upon the cust_ID. 
 - We dropped the null values from the reg_cust_df dataframe which we made in the above step.
@@ -126,7 +126,7 @@ We are analyzing the dataset with different machine learning models to predict t
 - Next, we created features by dropping cust_ID, cust_income and reg_cust column 
 we selected regular customer as target 
 
-![](Resources\prelim_features_repeat_cust.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/prelim_features_repeat_cust.png)
 #### **Description of how data was split into training and testing sets**
 - We used **sklearn** training_ test_split method to split our data into training and testing sets.	
 - Used **Standard scaler** to scale our training and testing data by fitting the scaler on training data set and use that transformed training and testing datasets for our machine learning model
@@ -134,11 +134,11 @@ we selected regular customer as target
 - To perform our machine learning predictions we used SVM,  EasyEnsemble, Neural Networks and Random Forest Classifier (RFC). Out of all these algorithms, RFC was able to give the predictions with most accuracy .
 
 - Also, this model gave us respectable scores for classification .
-	![](Resources\repeat_cust.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/repeat_cust.png)
 
 - At the end we saved the model and the standard scaler to use it in the flask app for our dashboard. 
 
-	![](Resources\sav_model_repeat_cust.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/sav_model_repeat_cust.png)
 	
  
 
@@ -155,27 +155,27 @@ From the resultant table , we dropped null values in **cust_ income** and 'food_
 	- We used unsupervised machine learning model to cluster food items based upon the food_calories and food_price.
 	
 
-	![](Resources\preprocessing_food.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/preprocessing_food.png)
 
 	
 	Further, the **elbow curve** method was used to determine the option value for number of clusters for **KMeans algorithm**, which we came up as 3 clusters as below:
 
-	![](Resources\elbow_curve_food.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/elbow_curve_food.png)
 	
 	Then we used KMeans algorithm with 3 clusters to predict the classes of the food items mentioned . We created a dataframe clustered _df using the clusters from KMeans algorithm to have all the unique food items with their classes and food_type.
 
-	![](Resources\food_items_cluster.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/food_items_cluster.png)
 	
 	- Created food_class dataframe for sending it to a csv file to use it later in flask app.
 
-	![](Resources\food_items_to_csv.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/food_items_to_csv.png)
 
 	- Next we use the supervised machine learning to predict the class of the food items, for the customer based upon their gender, age, preference of taste, calories_importance, price_importance and the current month.
 	- Created ranges for calories and price by specifying required conditions
 
 	-  Defined features and target for supervised machine learning
 
-	![](Resources\features_and_target_food_items.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/features_and_target_food_items.png)
 - #### **Description of how data was split into training and testing sets**
 	- We used **sklearn** training_ test_split method to split our data into training and testing sets.	
 	- Used **Standard scaler** to scale our training and testing data by fitting the scaler on training data set and use that transformed training and testing datasets for our machine learning model
@@ -184,14 +184,14 @@ From the resultant table , we dropped null values in **cust_ income** and 'food_
 
 	- To perform our machine learning predictions we used SVM,  EasyEnsemble, Neural Networks and Random Forest Classifier (RFC). Out of all these algorithms, RFC was able to give the predictions with most accuracy .
 
-	![](Resources\rfc_food.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/rfc_food.png)
 
 	- Also, this model gave us respectable scores for classification .
-	![](Resources\food_cluster.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/food_cluster.png)
 
 	- At the end we saved the model and the standard scaler to use it in the flask app for our dashboard. 
 
-	![](Resources\sav_model_food.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/sav_model_food.png)
 
 **B: Machine learning model for DRINK items clustering and recommendation prediction**
 
@@ -202,33 +202,33 @@ From the resultant table , we dropped null values in **cust_ income** and 'food_
 	From the resultant table , we dropped null values in **cust_ income** column, columns related to the **food** and **total_spend**, as we don't need them in the model to predict the recommendation of drink items. 
 	Also we dropped the null values in the **drink_type** column .
 
-	![](Resources\preprocessing_drinks.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/preprocessing_drinks.png)
 - #### **Description of preliminary feature engineering and preliminary feature selection, including their decision-making process:**
 
 	- Replaced null values in the 'drink_milk' column with a space white space character 
 	- Joined the 'drink_size', 'drink_type' and 'drink_milk' columns to create a new column 'Drink_Type'
 
-	![](Resources\feature_eng_drink.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/feature_eng_drink.png)
 
 	- We used unsupervised machine learning model to cluster drink items based upon the drink_calories and drink_price.
 		
 	Further, the **elbow curve** method was used to determine the option value for number of clusters for **KMeans algorithm**, which we came up as 5 clusters as below:
 
-	![](Resources\elbow_curve_drinks.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/elbow_curve_drinks.png)
 	
 	Then we used KMeans algorithm with 5 clusters to predict the classes of the drink items mentioned . We created a dataframe clustered _df using the clusters from KMeans algorithm to have all the unique drink items with their classes and Drink_Type.
 
-	![](Resources\drink_items_cluster.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/drink_items_cluster.png)
 	
 	- Created drink_class dataframe for sending it to a csv file to use it later in flask app.
 
-	![](Resources\drink_items_to_csv.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/drink_items_to_csv.png)
 
 	- Next we use the supervised machine learning to predict the class of the drink items, for the customer based upon their gender, age, preference of taste, calories, price and the current month.
 	- Created ranges for calories and price by specifying required conditions
 	-  Defined features and target for supervised machine learning
 
-	![](Resources\features_and_target_drink_items.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/features_and_target_drink_items.png)
 - #### **Description of how data was split into training and testing sets**
 	- We used **sklearn** training_ test_split method to split our data into training and testing sets.	
 	- Used **Standard scaler** to scale our training and testing data by fitting the scaler on training data set and use that transformed training and testing datasets for our machine learning model
@@ -237,14 +237,14 @@ From the resultant table , we dropped null values in **cust_ income** and 'food_
 
 	- To perform our machine learning predictions we used SVM,  EasyEnsemble, Neural Networks and Random Forest Classifier (RFC). Out of all these algorithms, RFC was able to give the predictions with most accuracy .
 
-	![](Resources\rfc_drinks.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/rfc_drinks.png)
 
 	- Also, this model gave us respectable scores for classification .
-	![](Resources\drink_cluster.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/drink_cluster.png)
 
 	- At the end we saved the model and the standard scaler to use it in the flask app for our dashboard. 
 
-	![](Resources\sav_model_drinks.png)
+	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/sav_model_drinks.png)
 ## **Dashboard Preparation**
 We are using *Tableau* for our data visualizations. The interactive elements on the story board are the filters we have used on all the pages of the story board. Using these filters, we can explore the trends in data for our questions as described above.
 
@@ -252,7 +252,7 @@ Below is a glimpse of our Tableau Storyboard.
 
 ### **Tableau Storyboard**
 
-![](Resources\Tableau_storyboard_blueprint.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/Tableau_storyboard_blueprint.png)
 
  To present our Machine Learning model, we have prepared and interactive *Web Application* (using Flask, HTML, Java) to display the options to the Cafe management to predict **Repeat Customers'** and the customers to **Recommend Food/Drink items** based upon their demographics and preferences.
 ### **Machine Learning Dashboard**
@@ -260,7 +260,7 @@ Below is a glimpse of our Tableau Storyboard.
 We are developing an interactive Web Application to help Management of the Cafe chain to identify a repeat customer. 
 
 A glimpse of this app is as below:
-![](Resources\machine_learning_model_dashboard.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/kirti-segment-2/Resources/machine_learning_model_dashboard.png)
 
 
 
