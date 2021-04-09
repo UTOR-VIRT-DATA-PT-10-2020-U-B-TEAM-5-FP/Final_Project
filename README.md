@@ -1,10 +1,7 @@
 # **Cafe Chain Analysis**
 
-## ***Segment 2 of the project :-***
+## **Segment 3 of the project :-**
 
-## **Communication Protocol in the Team**
-
-There is a robust communication protocol among the team members. We have already established the slack group, along with a TA. We continuously share ideas about the project and the issues faced by any team member and take help from our assigned TA. We also schedule zoom meetings on need basis outside the office hours.
 ## **Presentation**
 The presentation [can be reached here](https://1drv.ms/p/s!AkVDqlS3Ei2agpoFMxa9sUqR1cCPLA?e=dIhtIA)
 
@@ -35,20 +32,19 @@ Finally, there are features that indicate whether "Our Cafe" location at which t
 
 There are many pertinent business questions a business might want to address to scale it's revenue and expansion. In the current analysis, we look forward to address the following questions :
 
-* Popular Food / Drink Items  & Demand over the year​
-* Identification of Customer Preferences (Taste/Price/  Calorie)​
-* Customer Demographics​
-* Core Customer of “Our Café”​
-* Customer Spending Habits​
-* Repeat Customers & Store Wise Distribution​
-* Highest Revenue Stores​
-* Reliability of Survey Answers & Actual Purchases​
 * **Prediction of repeat customers (Machine Learning)**
 * **Recommendation of Food/ Drink items for the customer based upon their demographics and answers to 3 survey questions related to their preference of Taste/ Calories/ Price in making their purchase (Machine Learning)**
+* Identification of Customer Preferences (Taste/Price/ Calorie)​
+* Core Customer of “Our Café”​
+* Repeat Customers & Store Wise Distribution​
+* Highest Revenue Stores​
+* Popular Food / Drink Items  & Demand over the year​
+* Customer Demographics​
+* Customer Spending Habits​
+* Survey Answers Vs Actual Purchases​
 
 ### **Data Exploration phase**
 In this phase, we are working on following:
-
 * Data visualizations​
 * Customer Demographics data​
 * Stores and their order variations​
@@ -260,7 +256,20 @@ Below is a glimpse of our Tableau Storyboard.
 We are developing an interactive Web Application to help Management of the Cafe chain to identify a repeat customer. 
 
 A glimpse of this app is as below:
+
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/machine_learning_model_dashboard.png)
 
+
+## **Summary of analysis**
+* Accuracy of our Machine Learning model to predict repeat customer is **78%** as per which , we have **23.51%** repeat customers.
+* Prediction of FOOD items is done accurately by **92%**
+* DRINK items are recommended by out Machine Learning Model with **92%** accuracy.
+* Most important feature on which **Core Customers** of **Our Cafe** depend is their **Age**.
+* **Highest Revenue Store** is **Store 568**
+* Store which have **Most Repeat Customers** is **Store 511**
+* Most of our customers are of **Age group : 30-40** and **Income Group : 50K to 75K**
+* Customers **Preferred TASTE** above calories and price respectively.
+* Most **Popular Food Item** is **Blueberry Scone**
+* Most **Popular Drink Item** is **Drip Coffee**
 
 
