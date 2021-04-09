@@ -259,7 +259,25 @@ A glimpse of this app is as below:
 
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/machine_learning_model_dashboard.png)
 
+Through this dashboard of Machine Learning, we can:
+* **Predict Repeat Customer**
+* **Recommend Food/Drink Items** on the basis of customer preferences.
 
+When we click on our first button **Predict Repeat Customer**, on the dash board, a form opens up to fill up the details about the customer such as customer's gender, age, income range, preferences taste, price and calories and total spend by the customer for current order.
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/predict.png)
+
+Once we hit **Submit** button, we are able to predict likelihood of whether this customer will be a **REPEAT  CUSTOMER**, using our machine learning model at the backend.
+
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/predict_repeat_cust.png)
+
+
+In the same manner, when we click on **Recommend Food/Drink items to Customer** button, there opens up another form to provide customer's details as below:
+
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/recommend_food.png)
+
+After we submit the details, we are able to predict the **FOOD/DRINK** items based upon customer's preferences and related information, as below:
+
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/recommended.png)
 ## **Summary of analysis**
 * Accuracy of our Machine Learning model to predict repeat customer is **78%** as per which , we have **23.51%** repeat customers.
 * Prediction of FOOD items is done accurately by **92%**
