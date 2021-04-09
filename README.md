@@ -127,7 +127,7 @@ we selected regular customer as target
 - We used **sklearn** training_ test_split method to split our data into training and testing sets.	
 - Used **Standard scaler** to scale our training and testing data by fitting the scaler on training data set and use that transformed training and testing datasets for our machine learning model
 #### **Explanation of model choice, including limitations and benefits**
-- To perform our machine learning predictions we used SVM,  EasyEnsemble, Neural Networks and Random Forest Classifier (RFC). Out of all these algorithms, RFC was able to give the predictions with most accuracy .
+- To perform our machine learning predictions we used SVM,  EasyEnsemble, Neural Networks and Random Forest Classifier (RFC). Out of all these algorithms, RFC was able to give the predictions with most accuracy of **78%** .
 
 - Also, this model gave us respectable scores for classification .
 	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/repeat_cust.png)
@@ -178,7 +178,7 @@ From the resultant table , we dropped null values in **cust_ income** and 'food_
 
 - #### **Explanation of model choice, including limitations and benefits:**
 
-	- To perform our machine learning predictions we used SVM,  EasyEnsemble, Neural Networks and Random Forest Classifier (RFC). Out of all these algorithms, RFC was able to give the predictions with most accuracy .
+	- To perform our machine learning predictions we used SVM,  EasyEnsemble, Neural Networks and Random Forest Classifier (RFC). Out of all these algorithms, RFC was able to give the predictions with most accuracy of **92%**.
 
 	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/rfc_food.png)
 
@@ -231,7 +231,7 @@ From the resultant table , we dropped null values in **cust_ income** and 'food_
 
 - #### **Explanation of model choice, including limitations and benefits:**
 
-	- To perform our machine learning predictions we used SVM,  EasyEnsemble, Neural Networks and Random Forest Classifier (RFC). Out of all these algorithms, RFC was able to give the predictions with most accuracy .
+	- To perform our machine learning predictions we used SVM,  EasyEnsemble, Neural Networks and Random Forest Classifier (RFC). Out of all these algorithms, RFC was able to give the predictions with most accuracy of **92%**.
 
 	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/rfc_drinks.png)
 
