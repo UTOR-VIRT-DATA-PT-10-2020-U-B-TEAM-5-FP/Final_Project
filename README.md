@@ -3,7 +3,7 @@
 ## **Segment 3 of the project :-**
 
 ## **Presentation**
-The presentation [can be reached here](https://1drv.ms/p/s!AkVDqlS3Ei2agpoFMxa9sUqR1cCPLA?e=dIhtIA)
+The presentation [can be reached here](https://1drv.ms/p/s!AkVDqlS3Ei2agpomBe74wuA4n2YWTQ?e=S1E5oE)
 
 In our project presentation, we have addressed the following:
 ### **Selection of Topic**
@@ -67,9 +67,11 @@ Here are few images of Data exploration at this stage:
 The project data has been stored in "postgreSQL" and being queried using SQLAlchemy and Flask.
 
 We have initial dataset named: cafe_data.csv, which stores static data, as below:
+
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/cafe_data_csv.png)
 
 Dataset has been connected with **pgAdmin** in a Database named **cafe_db** with the help of following connection code in the Python scripts, for the interface:
+
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/database_connection.png)
 
 After having created tables customer_info, order_info and competitors from our original dataset cafe_data.csv and a complete table named cafe_original_data, in our database cafe_db,  to organize the data, we establish relationship between all the tables using the following snippet:
@@ -85,7 +87,8 @@ Below is the code snippet to present the usage of SQL joins:
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/joins.png)
 
 ## **Data Analysis phase**
-In the analysis of the data, we have performed the following:
+In the analysis of the data, we have performed the following to prepare machine learning model for recommending Food & Drink Items, as per their Demographics & Preferences, and identification & prediction for the Repeat Customer​ for "Our Cafe":
+
 * checked statistical validity of our data
 * checked for nulls and deleted as required
 * checked datatypes and took out wrong datatype values and re-transformed datatypes
@@ -98,8 +101,7 @@ In the analysis of the data, we have performed the following:
 * supervised and unsupervised learning, dimensionality reduction
 * rescaling data
 
-to prepare machine learning model for recommendation Food & Drink Items as per their Demographics and Preferences
-and identification & prediction for the Repeat Customer​ for "Our Cafe".
+
 
 ## **Machine Learning Model**
 We are analyzing the dataset with different machine learning models to predict the following as explained briefly below:​​
@@ -115,7 +117,7 @@ We are analyzing the dataset with different machine learning models to predict t
 
 	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/preprocessing_repeat_cust.png)
 #### **Description of preliminary feature engineering and preliminary feature selection, including their decision-making process:**
-- From the joint table we have picked every column in cust_info table and total_spend features from orders_info table to define regular customer dataframe named reg_cust_df. By using these features, we have determined the number of visits by every customer based upon the cust_ID. 
+- From the joined table we have picked every column in cust_info table and total_spend features from orders_info table to define regular customer dataframe named reg_cust_df. By using these features, we have determined the number of visits by every customer based upon the cust_ID. 
 - We dropped the null values from the reg_cust_df dataframe which we made in the above step.
 - We created some income ranges and used them as bins to use them in features instead of customers' specific income values.  
 - In this table, we further filtered regular customers on the basis of a condition where every customer who has visited more than or equal to five times is considered as a regular customer
@@ -250,7 +252,7 @@ Below is a glimpse of our Tableau Storyboard.
 
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/Tableau_storyboard_blueprint.png)
 
- To present our Machine Learning model, we have prepared and interactive *Web Application* (using Flask, HTML, Java) to display the options to the Cafe management to predict **Repeat Customers'** and the customers to **Recommend Food/Drink items** based upon their demographics and preferences.
+ To present our Machine Learning model, we have prepared an interactive *Web Application* (using Flask, HTML, JavaScript) to display the options to the Cafe management to predict **Repeat Customers'** and the customers to **Recommend Food/Drink items** based upon their demographics and preferences.
 ### **Machine Learning Dashboard**
 
 We are developing an interactive Web Application to help Management of the Cafe chain to identify a repeat customer. 
@@ -279,11 +281,12 @@ After we submit the details, we are able to predict the **FOOD/DRINK** items bas
 
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/recommended.png)
 ## **Summary of analysis**
-* Accuracy of our Machine Learning model to predict repeat customer is **78%** as per which , we have **23.51%** repeat customers.
+* Accuracy of our Machine Learning model to predict repeat customer is **78%** 
 * Prediction of FOOD items is done accurately by **92%**
 * DRINK items are recommended by out Machine Learning Model with **92%** accuracy.
 * Most important feature on which **Core Customers** of **Our Cafe** depend is their **Age**.
 * **Highest Revenue Store** is **Store 568**
+* We have **23.51%** repeat customers.
 * Store which have **Most Repeat Customers** is **Store 511**
 * Most of our customers are of **Age group : 30-40** and **Income Group : 50K to 75K**
 * Customers **Preferred TASTE** above calories and price respectively.
