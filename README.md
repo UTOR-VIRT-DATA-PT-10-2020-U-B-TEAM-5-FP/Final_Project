@@ -252,6 +252,9 @@ Below is a glimpse of our Tableau Storyboard.
 
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/Tableau_storyboard_blueprint.png)
 
+
+Our Tableau dashboard for the detailed Vizualizations [can be reached here](https://public.tableau.com/profile/kirti.bhandari#!/vizhome/Coffee_Cafe_Chain_Project/Story1?publish=yes)
+
  To present our Machine Learning model, we have prepared an interactive *Web Application* (using Flask, HTML, JavaScript) to display the options to the Cafe management to predict **Repeat Customers'** and the customers to **Recommend Food/Drink items** based upon their demographics and preferences.
 ### **Machine Learning Dashboard**
 
