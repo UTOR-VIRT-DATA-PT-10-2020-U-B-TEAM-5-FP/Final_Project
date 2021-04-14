@@ -1,6 +1,4 @@
-# Final_Project
-
-## Coffee Chain Analysis- Team 5
+# Coffee Chain Analysis- Team 5
 
 ### Selection of Topic
 
@@ -88,7 +86,7 @@ Some other questions that can be answered later are:
 
 * What is the relationship of customers' answers to the survey questions and the actual purchases they made?
 
-### ERD
+### Enterprise Resource Diagram
 
 <img src='./resources/ERD.png'></img>
 
