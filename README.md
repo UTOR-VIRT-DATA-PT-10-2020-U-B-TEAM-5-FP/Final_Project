@@ -1,9 +1,9 @@
 # **Cafe Chain Analysis**
 
-## **Segment 3 of the project :-**
+## **Segment 4 of the project :-**
 
 ## **Presentation**
-The presentation [can be reached here](https://1drv.ms/p/s!AkVDqlS3Ei2agpomBe74wuA4n2YWTQ?e=S1E5oE)
+The presentation [can be reached here]( https://1drv.ms/p/s!AkVDqlS3Ei2agpo9MclSiN3mLx4cQA?e=pUWede)
 
 In our project presentation, we have addressed the following:
 ### **Selection of Topic**
@@ -253,12 +253,12 @@ Below is a glimpse of our Tableau Storyboard.
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/Tableau_storyboard_blueprint.png)
 
 
-Our Tableau dashboard for the detailed Vizualizations [can be reached here](https://public.tableau.com/profile/kirti.bhandari#!/vizhome/Coffee_Cafe_Chain_Project/Story1?publish=yes)
+Our **Tableau dashboard** for the detailed Visualizations [can be reached here](https://public.tableau.com/profile/kirti.bhandari#!/vizhome/Coffee_Cafe_Chain_Project/Story1?publish=yes)
 
  To present our Machine Learning model, we have prepared an interactive *Web Application* (using Flask, HTML, JavaScript) to display the options to the Cafe management to predict **Repeat Customers'** and the customers to **Recommend Food/Drink items** based upon their demographics and preferences.
 ### **Machine Learning Dashboard**
 
-We are developing an interactive Web Application to help Management of the Cafe chain to identify a repeat customer. 
+We have developed an interactive Web Application to help Management of the Cafe chain to identify a repeat customer. 
 
 A glimpse of this app is as below:
 
@@ -283,6 +283,8 @@ In the same manner, when we click on **Recommend Food/Drink items to Customer** 
 After we submit the details, we are able to predict the **FOOD/DRINK** items based upon customer's preferences and related information, as below:
 
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/recommended.png)
+
+A **VIDEO CAPTURE** may be downloaded from this [LINK] (https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Ehsan/Flask_video.mov?raw=true) here and can be run on one's system like a video clip, to review the Web Application's functionality.
 ## **Summary of analysis**
 * Accuracy of our Machine Learning model to predict repeat customer is **78%** 
 * Prediction of FOOD items is done accurately by **92%**
@@ -296,4 +298,8 @@ After we submit the details, we are able to predict the **FOOD/DRINK** items bas
 * Most **Popular Food Item** is **Blueberry Scone**
 * Most **Popular Drink Item** is **Drip Coffee**
 
-
+## **Recommendation for future analysis**
+* More data points(transactions) could be made to avail for the analysis as it is only for 10 days data out of 30 days of a month
+* Locations of stores may be provided to analyze data from the perspective that how location impacts revenue of a store
+* Budget information for marketing campaign may be gathered
+* Data about competitors for sales to have comparison of performance
