@@ -250,7 +250,7 @@ Below is a glimpse of our Tableau Storyboard.
 
 ### **Tableau Storyboard**
 
-![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/Tableau_storyboard_blueprint.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/main/Resources/Tableau_storyboard_blueprint.png)
 
 
 Our **Tableau dashboard** for the detailed Visualizations [can be reached here](https://public.tableau.com/profile/kirti.bhandari#!/vizhome/Coffee_Cafe_Chain_Project/Story1?publish=yes)
@@ -284,7 +284,7 @@ After we submit the details, we are able to predict the **FOOD/DRINK** items bas
 
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/recommended.png)
 
-A **VIDEO CAPTURE** may be downloaded from this [LINK] (https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Ehsan/Flask_video.mov?raw=true) here and can be run on one's system like a video clip, to review the Web Application's functionality.
+A **VIDEO CAPTURE** may be downloaded from this [LINK](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Ehsan/Flask_video.mov?raw=true) here and can be run on one's system like a video clip, to review the Web Application's functionality.
 ## **Summary of analysis**
 * Accuracy of our Machine Learning model to predict repeat customer is **78%** 
 * Prediction of FOOD items is done accurately by **92%**
