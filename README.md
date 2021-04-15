@@ -250,7 +250,7 @@ Below is a glimpse of our Tableau Storyboard.
 
 ### **Tableau Storyboard**
 
-![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/Tableau_storyboard_blueprint.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/main/Resources/Tableau_storyboard_blueprint.png)
 
 
 Our **Tableau dashboard** for the detailed Visualizations [can be reached here](https://public.tableau.com/profile/kirti.bhandari#!/vizhome/Coffee_Cafe_Chain_Project/Story1?publish=yes)
