@@ -301,7 +301,8 @@ A **VIDEO CAPTURE** may be downloaded from this [LINK](https://github.com/UTOR-V
 * Most **Popular Drink Item** is **Drip Coffee**
 
 ## **Recommendation for future analysis**
-* More data points(transactions) could be made to avail for the analysis as it is only for 10 days data out of 30 days of a month
-* Locations of stores may be provided to analyze data from the perspective that how location impacts revenue of a store
-* Budget information for marketing campaign may be gathered
-* Data about competitors for sales to have comparison of performance
+* More data points(transactions) could be made to avail for the analysis as it is only for 10 days data out of 30 days of a month, it will help in improving the prediction accuracy even further.
+* More data points will also help in suggesting the new store locations.
+* Locations of stores may be provided to analyze data from the perspective that how location impacts revenue of a store.
+* Budget information for marketing campaign may be gathered.
+* Data about competitors sales to have comparison of performance and help in strategizing new customer acquisition.
