@@ -61,7 +61,7 @@ Here are few images of Data exploration at this stage:
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/food_items.png)
 
 ### **Repeat Customer Orders**
-![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/repeat_cust_orders.png)
+![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/main/Resources/repeat_cust_orders.png)
 
 ## **Database Formation**
 The project data has been stored in "postgreSQL" and being queried using SQLAlchemy and Flask.
