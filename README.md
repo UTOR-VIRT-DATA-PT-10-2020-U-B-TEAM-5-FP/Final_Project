@@ -134,6 +134,8 @@ we selected regular customer as target
 - Also, this model gave us respectable scores for classification .
 	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/repeat_cust.png)
 
+- According to the classification report, the precision of prediction of repeat customers is 73% , which means if this model predicts someone to be repeat customer, there is a 73% chance that this prediction is correct. The recall for this prediction is 68% that means if someone is repeat customer, there is 68% chance that this model will predict them as repeat customer.
+
 - At the end we saved the model and the standard scaler to use it in the flask app for our dashboard. 
 
 	![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/sav_model_repeat_cust.png)
