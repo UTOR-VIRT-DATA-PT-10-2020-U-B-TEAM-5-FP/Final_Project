@@ -275,7 +275,7 @@ Once we hit **Submit** button, we are able to predict likelihood of whether this
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/predict_repeat_cust.png)
 
 
-In the same manner, when we click on **Recommend Food/Drink items to Customer** button, there opens up another form to provide customer's details as below:
+In the same manner, when we click on **Recommend Food/Drink items to Customer** button, there ope up another form to provide customer's details as below:
 
 ![](https://github.com/UTOR-VIRT-DATA-PT-10-2020-U-B-TEAM-5-FP/Final_Project/blob/Kirti/Resources/recommend_food.png)
 
