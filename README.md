@@ -294,5 +294,3 @@ After we submit the details, we are able to predict the **FOOD/DRINK** items bas
 * Customers **Preferred TASTE** above calories and price respectively.
 * Most **Popular Food Item** is **Blueberry Scone**
 * Most **Popular Drink Item** is **Drip Coffee**
-
-
