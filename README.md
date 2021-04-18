@@ -120,7 +120,7 @@ We are analyzing the dataset with different machine learning models to predict t
 - From the joined table we have picked every column in cust_info table and total_spend features from orders_info table to define regular customer dataframe named reg_cust_df. By using these features, we have determined the number of visits by every customer based upon the cust_ID. 
 - We dropped the null values from the reg_cust_df dataframe which we made in the above step.
 - We created some income ranges and used them as bins to use them in features instead of customers' specific income values.  
-- In this table, we further filtered regular customers on the basis of a condition where every customer who has visited more than or equal to five times is considered as a regular customer
+- In this table, we further filtered regular customers on the basis of a condition where every customer who has visited more than or equal to four times is considered as a regular customer
 - Next, we created features by dropping cust_ID, cust_income and reg_cust column 
 we selected regular customer as target 
 
